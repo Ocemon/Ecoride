@@ -1,0 +1,180 @@
+ /* Style global pour le corps de la page */ 
+ 
+body { 
+    font-family: jomolhari, Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+} 
+
+ /* Style pour la barre de menu */ 
+ 
+.menu { 
+    background-color: #22b14c;
+    overflow: Hidden;
+} 
+
+/* Style pour le nom du site (h1) */
+h1 {
+    color: white; /* Couleur du texte */
+    text-align: left; /* Centrage du texte */
+    padding: 0; /* Espacement autour du texte */
+    font-size: 40px; /* Taille du texte */
+    font-family: nanum brush script, Arial, sans-serif; /* Police du texte */
+}
+        
+/* Style pour la liste des éléments du menu */ 
+
+.menu ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+} 
+
+/* Style pour chaque élément de la liste */ 
+
+.menu li { 
+    display: inline-block; 
+    margin : 0 50px ; 
+} 
+
+/* Style pour les liens dans le menu */ 
+
+.menu a { 
+    display: block; 
+    color : #0f4f22; /* Couleur du texte */ 
+    text-decoration: none; /* Supprime le soulignement */ 
+    padding: 0px 50px 0px 20px; /* Espacement autour du texte */ 
+    font-size: 25px;
+    font-family: nanum brush script, Arial, sans-serif; 
+} 
+    
+    /* Changement de couleur au survol d'un élément */ 
+    
+.menu a:hover { 
+        background-color: #575757; 
+        border-radius: 5px; 
+}
+
+/*placer l'image sur ma page*/
+
+.pres {
+    display: flexbox;
+    margin-top: -5%;
+    margin-left: 55%;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 30%;
+}
+
+/*mise en forme du main*/
+
+main {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    padding: 0px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*mise en forme de la partie formulaire*/
+
+fieldset {
+    margin-top: -15%;
+    margin-left: 8%;
+    margin-right: 90%;
+    margin-bottom: 0%;
+    padding: 0px;
+    background-color: #288138;
+    border-radius: 10px;
+    width: 30%;
+    border-style: none;
+}
+
+/* Centrage du formulaire à l'intérieur du fieldset */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style des éléments de formulaire */
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+    width: 70%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #22b14c;
+    color: white;
+    border: 2px solid #0f4f22;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style du legend (titre du fieldset) */
+legend {
+    font-weight: bold;
+    background-color: #b5e61d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #0f4f22;
+}
+
+/* Mise en forme de la partie présentation de l'entreprise */
+
+/*conteneur des éléments côte à côte*/
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* style pour chaque section de contenu*/
+.ecoride {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 50%;
+   padding: 20px;
+   box-sizing: border-box;
+   text-align: center;
+}
+
+.ecoride img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #292222;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/*mise en forme du footer*/
+
+footer {
+    background-color: #22b14c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoride</title>
+    <link rel="stylesheet" href="accueil.css">
+</head>
+<body>
+    <header>
+        
+        <nav class="menu">
+            <ul>
+                <li><h1>ECORIDE</h1></li>
+                <li><a href="">Accueil</a></li>
+                <li><a href="covoiturage.html">Covoiturage</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <br><br><br><br>
+    </header>
+
+    <main>
+        <img src="image/ecoride2.jpg" alt="ecoride2" class="pres">
+        
+        <fieldset>
+            <legend>RECHERCHE DE TRAJET</legend>
+            <form action="recherche.php" method="post">
+                <div class="form-container">
+                    <label for="depart">Ville de départ :</label>
+                    <input type="text" id="depart" name="depart" required><br>
+                    <label for="arrivee">Ville d'arrivée :</label>
+                    <input type="text" id="arrivee" name="arrivee" required><br>
+                    <label for="date">Date :</label>
+                    <input type="date" id="date" name="date" required><br>
+                    <input type="submit" value="Rechercher">
+                </div>
+            </form>
+        </fieldset>
+
+        <div class="container"> 
+            <div class="ecoride">
+                <h2>Qui est ECORIDE?</h2>
+                <p>Nous sommes une jeune startup française qui a pour objectif de réduire l'impact environnemental des déplacements en encourageant le covoiturage. Nous prônons une approche écologique.</p>
+                <img src="image/ecoride 1.jpg" alt="ecologie">
+            </div> 
+            <div class="ecoride">
+                <h2>Nos objectifs</h2>
+                <p>Notre ambition est de devenir la principale plateforme de covoiturage pour les voyageurs soucieux de l'environnement, et ceux qui recherchent une solution économique pour leurs déplacements. Dans ce sens, nous acceptons uniquement les déplacements en voiture.</p>
+                <img src="image/covoit1.jpg" alt="covoiturage">
+            </div>
+        </div>     
+    </main>
+
+    <footer>
+        <nav class="menu">
+            <ul>
+                <li><a href="mailto:contact@ecoride.fr">contact@ecoride.fr</a></li>
+                <li><a href="mentionslegales.html">Mentions Légales</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+    
+</body>
+</html>

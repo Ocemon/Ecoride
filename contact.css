@@ -1,0 +1,121 @@
+/* Style global pour le corps de la page */ 
+ 
+body { 
+    font-family: jomolhari, Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+} 
+
+/* Style pour la barre de menu */ 
+ 
+.menu { 
+    background-color: #22b14c;
+    overflow: Hidden;
+} 
+
+/* Style pour le nom du site (h1) */
+h1 {
+    color: white; /* Couleur du texte */
+    text-align: left; /* Centrage du texte */
+    padding: 0; /* Espacement autour du texte */
+    font-size: 40px; /* Taille du texte */
+    font-family: nanum brush script, Arial, sans-serif; /* Police du texte */
+}
+        
+/* Style pour la liste des éléments du menu */ 
+
+.menu ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+} 
+
+/* Style pour chaque élément de la liste */ 
+
+.menu li { 
+    display: inline-block; 
+    margin : 0 50px ; 
+} 
+
+/* Style pour les liens dans le menu */ 
+
+.menu a { 
+    display: block; 
+    color : #0f4f22; /* Couleur du texte */ 
+    text-decoration: none; /* Supprime le soulignement */ 
+    padding: 0px 50px 0px 20px; /* Espacement autour du texte */ 
+    font-size: 25px;
+    font-family: nanum brush script, Arial, sans-serif; 
+} 
+    
+    /* Changement de couleur au survol d'un élément */ 
+    
+.menu a:hover { 
+        background-color: #575757; 
+        border-radius: 5px; 
+}
+
+/*Mis en forme du titre de la page*/
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: nanum brush script, Arial, sans-serif;
+    color: #0f4f22;
+    padding: 5px;
+}
+
+/* Mise en forme de la partie présentation de l'entreprise */
+
+/*conteneur des éléments côte à côte*/
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* style pour chaque section de contenu*/
+.ecoride {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 50%;
+   padding: 30px;
+   box-sizing: border-box;
+   text-align: center;
+   border: #0f4f22 solid 2px;
+   border-radius: 5%;
+   margin: 20px;
+}
+
+.ecoride img {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #292222;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+/*mise en forme du footer*/
+
+footer {
+    background-color: #22b14c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
